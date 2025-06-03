@@ -1,0 +1,298 @@
+body
+{
+    margin: 0;
+    background-color:#bcccac;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+  
+
+.container
+{
+    overflow: hidden;
+    position: fixed;
+    display: flexbox;
+    flex-direction: row;
+    width: 100%;
+    
+    background-color: #ecd69d;
+}
+
+header
+{
+    background-color: #ecd69d;
+}
+
+header::after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+#PageLogo
+{
+    float: left;
+}
+
+nav
+{
+    float: right;
+}
+
+
+nav ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+nav li
+{
+    justify-content: right;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 70px;
+    padding-top: 25px;
+}
+
+nav a[href="#"]
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    color: #806249;
+}
+
+nav a:hover
+{
+    color: #190F09;
+    font-size: 24px;
+}
+
+#PageBanner
+{
+    width: 100%;
+    height: 500px;
+    padding-top: 35px;
+}
+
+.FurryFriends
+{
+    display: flex;
+    background-color: #ecd69d;
+}
+
+.content-container
+{
+    flex: 1;
+    padding: 20px;
+}
+
+.table-container
+{
+    flex: 1;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+    border-style: double;
+}
+
+th, td
+{
+    border: 1px solid #190F09;
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+
+th
+{
+    background-color: #6e3d1c;
+    color: #bcc8ac;
+}
+
+td
+{
+    background-color: #bcccac;
+    color: #190F09;
+    padding: 15px;
+}
+
+h2
+{
+    text-align: center;
+    color: #190F09;
+}
+
+p
+{
+    color: #190F09;
+    font-weight: 400;
+}
+
+p::first-letter
+{
+    font-weight: 600;
+    font-style: italic;
+}
+
+main ul
+{
+    color: #190F09;
+    font-weight: 400;
+}
+
+div footer
+{
+    color: #190F09;
+    background-color: #806249;
+    text-align: center;
+    font-size: 16px;
+    position: sticky;
+}
+
+.Intro h2
+{
+    color: #190F09;
+    text-align: center;
+}
+
+.Intro p
+{
+    color: #190F09;
+    text-align: center;
+    font-style: italic;
+}
+
+.Form
+{
+    padding-left: 200px;
+    padding-right: 200px;
+    color: #190F09;
+    font-weight: 400;
+}
+
+fieldset
+{
+    background-color: #5b846c;
+}
+
+.reset-button
+{
+    background-color: #190F09;
+    color: #bcc8ac;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-button
+{
+    background-color: #190F09;
+    color: #bcc8ac;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-button:hover, .reset-button:hover
+{
+    opacity: 0.8;
+}
+
+.buttons
+{
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.Quiz-Intro
+{
+    text-align: center;
+    justify-content: center;
+    color: #190F09;
+    font-style: italic;
+}
+
+#Quiz-Disclaimer
+{
+    color: #190F09;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.Quiz
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Quiz-Container
+{
+    color: #190F09;
+    background-color: #c87529;
+    border-radius: 10px;
+    box-shadow: none;
+    width: 500px;
+    max-width: 95vw;
+    overflow: hidden;
+}
+
+.Quiz-Header
+{
+    text-align: center;
+    margin: 0;
+}
+
+.Quiz-Container ul
+{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.Quiz-Container ul li label
+{
+    cursor: pointer;
+}
+
+.Quiz-Submit
+{
+    background-color: #ecd69d;
+    color: #190F09;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.Quiz-Submit:hover
+{
+    background-color: #6e3d1c;
+    color: #ecd69d;
+    opacity: 0.8;
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>RCS202 Project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="ProjectStyles.css">
+        <script src="ValidationScript.js" defer></script>
+        <script src="QuizScript.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+
+                <img src="C:\Users\Admin\OneDrive\Pictures\Furry Friends logo.png" id="PageLogo" alt="Furry Friends logo">
+                
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+        <div id="BannerImage">
+            <img src="C:\Users\Admin\OneDrive\Pictures\CatsBanner.jpg" id="PageBanner" alt="cats"> 
+        </div>
+
+        <div class="FurryFriends">
+            <div class="content-container">
+                <h2>WELCOME TO FURRY FRIENDS HAVEN!</h2>
+                <p>Here, we're dedicated to finding loving homes for every pet. Before you embark on the journey of adoption, consider the joy and companionship a furry friend can bring into your life. To ensure a successful adoption experience, take a moment to reflect on these important considerations:</p>
+                <ul class="FFList">
+                    <li>Assess your lifestyle and living space to determine the best pet fit.</li>
+                    <li>Research the specific needs and characteristics of different pet breeds.</li>
+                    <li>Prepare your home for a for a new arrival by pet proofing and setting up necessary supplies.</li>
+                    <li>Explore adoption policies and procedures to understand the responsibilities of pet ownership.</li>
+                </ul>
+            </div>
+            <div class="table-container">
+                <table border="1">
+                    <tr>
+                      <th rowspan="2">Pet Type</th>
+                      <th colspan="4">Fees (KES)</th>
+                    </tr>
+                    <tr>
+                      <th>Adoption</th>
+                      <th>Spaying/Neutering</th>
+                      <th>Wing Clipping</th>
+                      <th>Vaccination</th>
+                    </tr>
+                    <tr>
+                      <td>Dog</td>
+                      <td>10,000</td>
+                      <td>5,000</td>
+                      <td>-</td>
+                      <td>2,500</td>
+                    </tr>
+                    <tr>
+                      <td>Cat</td>
+                      <td>8,000</td>
+                      <td>4,000</td>
+                      <td>-</td>
+                      <td>1,500</td>
+                    </tr>
+                    <tr>
+                      <td>Rabbit</td>
+                      <td>6,000</td>
+                      <td>3,000</td>
+                      <td>-</td>
+                      <td>1,000</td>
+                    </tr>
+                    <tr>
+                      <td>Bird</td>
+                      <td>4,000</td>
+                      <td>-</td>
+                      <td>2,000</td>
+                      <td>1,000</td>
+                    </tr>
+                </table>
+            </div>  
+        </div> 
+        <div class="Form">
+            <div class="Intro">
+                <h2>Think you're ready to adopt? Fill out the form below, and we'll get back to you!</h2>
+                <p id="Disclaimer">We ask for this information to assess your ability to care for a pet, and to match you to the pet of your preference.</p>
+            </div>
+            <div class="AdoptionForm">    
+                <form action="#" method="post" name="AdoptionForm">
+                    <fieldset>
+                        <legend><strong>APPLICANT INFORMATION</strong></legend>
+                        <p>Name</p>
+                        <input type="text" placeholder="First Name" id="FirstName" name="FirstName" required>
+                        <input type="text" placeholder="Last Name" id="LastName" name="LastName" required>
+                        <p>Contact Details</p>
+                        <input type="text" placeholder="Mobile Number" id="MobileNumber" name="MobileNumber">
+                        <input type="text" placeholder="Email Address" id="EmailAddress" name="MobileNumber">
+                        <p>Year of Birth <em>(You must be over 18 to adopt a pet.)</em></p>
+                        <label for="Years">Select a Year:</label>
+                        <select name="Years" id="Years">
+                            <option value="Default">--Select--</option>
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                            <option value="2015">2015</option>
+                            <option value="2014">2014</option>
+                            <option value="2013">2013</option>
+                            <option value="2012">2012</option>
+                            <option value="2011">2011</option>
+                            <option value="2010">2010</option>
+                            <option value="2009">2009</option>
+                            <option value="2008">2008</option>
+                            <option value="2007">2007</option>
+                            <option value="2006">2006</option>
+                            <option value="2005">2005</option>
+                            <option value="2004">2004</option>
+                            <option value="2003">2003</option>
+                            <option value="2002">2002</option>
+                            <option value="2001">2001</option>
+                            <option value="2000">2000</option>
+                            <option value="1999">1999</option>
+                            <option value="1998">1998</option>
+                            <option value="1997">1997</option>
+                            <option value="1996">1996</option>
+                            <option value="1995">1995</option>
+                            <option value="1994">1994</option>
+                            <option value="1993">1993</option>
+                            <option value="1992">1992</option>
+                            <option value="1991">1991</option>
+                            <option value="1990">1990</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <legend><strong>HOUSEHOLD INFORMATION</strong></legend>
+                        <p>What type of Residence do you live in?</p>
+                        <label for="Residence">Select a Residence:</label>
+                        <select name="Residence" id="Residence">
+                            <option value="Default">--Select--</option>
+                            <option value="House">House</option>
+                            <option value="Apartment">Apartment</option>
+                            <option value="Condo">Condo</option>
+                            <option value="RV">Residential Vehicle (RV)</option>
+                        </select>
+                        <p>Are there any other pets in your household?</p>
+                        <label><input type="radio" id="Yes" name="OtherPets" value="Yes">Yes</label>
+                        <label><input type="radio" id="No" name="OtherPets" value="No">No</label>
+                        <p>If <em>yes,</em> kindly list them below, separated by commas if more than one (e.g. cat, guinea pig, dog).</p>
+                        <input type="text" placeholder="Additional pets" id="AdditionalPets" name="AdditionalPets">
+                    </fieldset>
+                    <fieldset>
+                        <legend><strong>PET PREFERENCES</strong></legend>
+                        <p>What type of pet would you like to adopt?</p>
+                        <label for="Preference">Select a Pet</label>
+                        <select name="Preference" id="Preference">
+                            <option value="Default">--Select--</option>
+                            <option value="Dog">Dog</option>
+                            <option value="Cat">Cat</option>
+                            <option value="Rabbit">Rabbit</option>
+                            <option value="Bird">Bird</option>
+                        </select>
+                        <p>What age of Pet would you prefer to adopt? <em>(Select as many as apply.)</em></p>
+                        <label><input type="checkbox" value="0-6months" id="0-6months" name="PetAge">0 - 6 months</label>
+                        <label><input type="checkbox" value="6m-2y" id="6m-2y" name="PetAge">6 months - 2 years</label>
+                        <label><input type="checkbox" value="2-5y" id="2-5y" name="PetAge">2 - 5 years</label>
+                        <label><input type="checkbox" value="5y+" id="5y+" name="PetAge">5 years +</label>
+                    </fieldset>
+                    <fieldset>
+                        <p>Do you have any additional comments and/or questions?</p>
+                        <input type="text" placeholder="Additional comments/questions?" id="Comments" name="Comments">
+                        <p>Kindly read the <a href="#">terms of adoption</a> and check the agreement below.</p>
+                        <label><input type="radio" id="Agreement" value="Agreement" name="Agreement" required>I agree to provide proper care to the pet in a safe environment. In the event that I am not able to do so, I will return the pet to Furry Friends Haven for re-adoption.</label>
+                    </fieldset>
+                    <fieldset class="buttons">
+                        <button type="reset" class="reset-button">Reset Application</button>
+                        <button type="submit" class="submit-button">Submit Application</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div> 
+        <div class="Quiz-Intro">
+            <h2>Test your knowledge of Pets below!</h2>
+            <p id="Quiz-Disclaimer">This quiz is purely for entertainment purposes. Your score on this quiz will not affect your application in any way.</p>
+        </div>    
+        <div class="Quiz">
+            <div class="Quiz-Container" id="Quiz">
+                <div class="Quiz-Header">
+                    <h2 id="Question">Question</h2>
+                </div>
+                <ul>
+                    <li>
+                        <input type="radio" name="Answer" id="A" class="Answer">
+                        <label for="A" id="A_Text">Answer</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="Answer" id="B" class="Answer">
+                        <label for="B" id="B_Text">Answer</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="Answer" id="C" class="Answer">
+                        <label for="C" id="C_Text">Answer</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="Answer" id="D" class="Answer">
+                        <label for="D" id="D_Text">Answer</label>
+                    </li>
+                </ul>
+                <button id="Submit" class="Quiz-Submit">Submit</button>
+            </div>
+        </div>  
+        </main>
+        <div class="Footer">
+        <footer>
+            <p>Furry Friends Haven, 2024. Created by Christine Getange.</p>  
+        </footer> 
+        </div> 
+    </body>        
+</html>    
